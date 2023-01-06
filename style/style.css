@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.main{
+    font-family: 'Work Sans';
+}
+/* footer-start */
+.banner{
+    height: 750px;
+    background:url(../new-year-new-me/images/banner/banner1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-header{
+    text-align: right;
+    padding: 200px;
+}
+.banner-headding{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    
+}
+.banner-header p{
+    color: #444343;
+    padding: 24px 0;
+    line-height: 24px;
+}
+.header-btn button a{
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffff;
+}
+.header-btn button{
+    background-color: orangered;
+    padding: 20px 26px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* header-main-style */
+.header-main-text{
+    padding-right: 100px;
+}
+.header-main{
+    display: flex;
+    padding:0 230px;
+    justify-content: space-between;
+}
+.header-main-text h2{
+    padding-top: 270px;
+    font-weight: 700;
+    font-size: 40px;
+
+}
+.header-main-text > p{
+    color: #444343;
+    line-height: 26px;
+    padding:30px 0;
+}
+.header-main-text-list ul li{
+    padding-bottom: 5px;
+}
+.header-main-text-list ul li i{
+    color: green;
+}
