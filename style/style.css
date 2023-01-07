@@ -121,6 +121,31 @@ ul{
      color: #737272;
 }
 /* my-plans section style end */
+/* team section style start */
+.our-team{
+    margin: 10px 230px;
+}
+.team-main{
+    display: flex;
+    justify-content: space-between;
+}
+.our-team-header h2{
+    text-align: center;
+    font-weight: 700;
+    font-size:30px;
+    padding: 20px 0;
+}
+.team-iteam{
+    padding-top: 20px;
+    width: 25%;
+    text-align: center;
+}
+.team-iteam h3{
+    font-weight: 700;
+    font-size: 25px;
+    padding: 5px 0;
+}
+/* team section style end */
 /* call section style start */
 
 .call-bg{
@@ -153,11 +178,14 @@ ul{
 /* call section style end */
 /* footer section style start*/
 footer{
-    background-color: black;
+    background-color:#151414;
     color: #FFFFFF;
 }
 .footer-main{
-    padding: 50px 230px;
+    padding: 50px 280px;
+    display: flex;
+    justify-content:space-between;
+    gap: 500px;
 }
 .footer-iteam{
     width: 40%;
@@ -173,5 +201,31 @@ footer{
 .footer-main-icon i{
     padding-top: 10px;
     font-size: 24px;
+}
+.footer-iteam h3{
+    font-weight: 600;
+    font-size: 25px;
+}
+.footer-iteam input{
+    margin-top: 10px;
+    padding:10px 20px;
+    border: 1px solid white;
+    border-radius:5px;
+    background-color:#151414;
+
+}
+.footer-iteam-btn{
+    padding-top: 10px;
+}
+.footer-iteam-btn button{
+    padding:10px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+.footer-iteam-btn button a{
+    font-weight: 600;
+    font-size: 16px;
+   color: #F15B22;;
 }
 /* footer section style end */
