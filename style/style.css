@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 a{
     text-decoration: none;
@@ -10,6 +11,19 @@ ul{
 }
 .main{
     font-family: 'Work Sans';
+}
+.primary-btn{
+    padding-top: 10px;
+}
+.primary-btn button{
+    padding: 20px 36px;
+    border: none;
+    border-radius: 5px;
+}
+.primary-btn button a{
+    font-weight: 600;
+    font-size: 20px;
+   color: #F15B22;;
 }
 /* footer-start */
 .banner{
@@ -46,7 +60,9 @@ ul{
     border: none;
     border-radius: 5px;
 }
-
+.header-btn{
+    padding-right: 580px;
+}
 
 /* header-main-style */
 .header-main-text{
@@ -74,3 +90,88 @@ ul{
 .header-main-text-list ul li i{
     color: green;
 }
+
+
+/* my-plans section style start */
+.my-plans{
+    padding: 50px 230px;
+}
+.plans-main{
+    display: flex;
+    justify-content: space-between;
+}
+.plans-header h2{
+    text-align: center;
+    font-weight:700;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.plan{
+    text-align: center;
+    padding-top: 100px;
+}
+.plan h3{
+    font-weight: 700;
+    font-size: 30px;
+    padding: 10px 0;
+}
+.plan p{
+    font-weight: 500;
+     font-size: 25px;
+     color: #737272;
+}
+/* my-plans section style end */
+/* call section style start */
+
+.call-bg{
+    padding: 50px;
+    background:linear-gradient(to right,rgba(255, 68, 0, 0.849),rgba(143, 139, 133, 0.349)),url(../new-year-new-me/images/watch.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 80px 230px;
+    border-radius: 10px;
+}
+.header-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.primary-btn{
+    padding-top: 10px;
+}
+.primary-btn button{
+    padding: 20px 36px;
+    border: none;
+    border-radius: 5px;
+}
+.primary-btn button a{
+    font-weight: 600;
+    font-size: 20px;
+   color: #F15B22;;
+}
+/* call section style end */
+/* footer section style start*/
+footer{
+    background-color: black;
+    color: #FFFFFF;
+}
+.footer-main{
+    padding: 50px 230px;
+}
+.footer-iteam{
+    width: 40%;
+}
+.footer-main-text p{
+    padding-top: 10px;
+    line-height: 26px;
+}
+.footer-main-icon{
+    display: flex;
+    gap: 20px;
+}
+.footer-main-icon i{
+    padding-top: 10px;
+    font-size: 24px;
+}
+/* footer section style end */
